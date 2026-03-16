@@ -10,7 +10,12 @@ body{
     border: hidden;
 }
 
-.icon{
+.icon-search {
     width: 20px;
     height: 20px;
+}
+
+.icon-sony {
+    width: 100px;
+    height: 100px;
 }
