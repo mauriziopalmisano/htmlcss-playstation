@@ -14,7 +14,9 @@ body {
 .bg-color-banner{
     background-color: #88817e;
 }
-
+.bg-color-banner-2{
+    background-color: #161c3b;
+}
 .title{
     font-size: 40px;
     font-weight: 600;
