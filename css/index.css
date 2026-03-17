@@ -7,12 +7,23 @@ body {
     background-color: #cd3d0f;
 }
 
+.bg-color-gray{
+    background-color: #d9dadc;
+}
+
+.bg-color-banner{
+    background-color: #88817e;
+}
+
 .title{
     font-size: 40px;
     font-weight: 600;
 
 }
 
+.w-60{
+    width: 60%;
+}
 .ps5-img{
     width: 100%;
 }
