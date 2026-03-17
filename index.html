@@ -15,7 +15,7 @@
         style="height: 50px;">
         <img src="./img/sony_logo.svg" class="icon-sony bg-black " alt="sony logo">
     </div>
-    <nav class="navbar navbar-expand-lg sticky-top bg-white">
+    <nav class="navbar navbar-1 navbar-expand-lg sticky-top bg-white">
         <header class="container-fluid px-4">
             <a class="navbar-brand d-flex align-items-center gap-2" href="#">
                 <img src="./img/play_logo.svg" alt="Logo">
@@ -28,7 +28,7 @@
                 <ul class="navbar-nav mb-2 mb-lg-0 d-flex gap-2">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            data-bs-target="menu" aria-expanded="false">
+                            data-bs-auto-close="true" aria-expanded="false">
                             <span class="fw-bold">Giochi</span>
                         </a>
                     </li>
@@ -37,6 +37,58 @@
                             data-bs-target="menu" aria-expanded="false">
                             <span class="fw-bold">Hardware</span>
                         </a>
+                        <div class="dropdown-menu dd-menu p-3 border-0 m-0">
+                            <div class="row g-2 mb-3 justify-content-center">
+                                <div class="col-1">
+                                <a href="#" class="text-decoration-none text-dark">
+                                <div class="d-flex flex-column align-items-cernter p-2 text-center">
+                                    <div>
+                                        <img class="h-dd-menu-icon" src="./img/play-menu-ico.png" alt="PS5">
+                                    </div>
+                                    <p class="mb-0 small fw-medium mt-1">PlayStation 5</p>
+                                </div>
+                                </a>
+                                </div>
+                                <div class="col-1">
+                                <a href="#" class="text-decoration-none text-dark">
+                                <div class="d-flex flex-column align-items-cernter p-2 text-center">
+                                    <div>
+                                        <img class="h-dd-menu-icon" src="./img/play-menu-ico.png" alt="PS4">
+                                    </div>
+                                    <p class="mb-0 small fw-medium mt-1">PlayStation 4</p>
+                                </div>
+                                </a>
+                                </div>
+                                <div class="col-1">
+                                <a href="#" class="text-decoration-none text-dark">
+                                <div class="d-flex flex-column align-items-cernter p-2 text-center">
+                                    <div>
+                                        <img class="h-dd-menu-icon" src="./img/play-menu-ico.png" alt="PS3">
+                                    </div>
+                                    <p class="mb-0 small fw-medium mt-1">PlayStation 3</p>
+                                </div>
+                                </a>
+                                </div>
+                            </div>
+                            <hr class="my-2">
+                            <ul class="d-flex justify-content-center gap-4">
+                                <li>
+                                    <a href="#" class="text-decoration-none small text-primary">
+                                        Link Hardware
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none small text-primary">
+                                        Link Hardware
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-decoration-none small text-primary">
+                                        Link Hardware
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -72,10 +124,10 @@
                             </a>
                         </li>
                     </ul>
-                    <button type="button" class="button bg-black">
+                    <button class="btn bg-black rounded-pill">
                         <a href="#" class="text-decoration-none text-white fw-bold">Accedi</a>
                     </button>
-                    <button type="button" class="button bg-body fw-medium">
+                    <button class="btn bg-body fw-medium rounded-circle">
                         <a href="#"><img class="icon-search" src="./img/lens.svg" alt="icona bottone cerca"></a>
                     </button>
                 </div>
@@ -92,7 +144,7 @@
                 <p class="small">Rialzati dopo ogni sconfitta e affronta una nuova sfida
                     con ogni rinascita in questo esplosivo thriller fantascientifico,
                     disponibile in esclusiva su PS5.</p>
-                <button type="button" class="button bg-color-orange">
+                <button  class="btn bg-color-orange rounded-pill">
                     <a href="#" class="text-decoration-none text-white fw-bold">Acquista</a>
                 </button>
             </div>
@@ -132,7 +184,7 @@
                 <h2 class="title">Console PlayStation 5</h2>
                 <p class="fs-5 text-secondary fw-bold">Sperimenta la nuova genereazione di incredibili giochi
                     PlayStation.</p>
-                <button class="button bg-primary text-white">Maggiori informazioni</button>
+                <button class="btn bg-primary rounded-pill text-white">Maggiori informazioni</button>
             </div>
             <div class="col-12 col-md-6">
                 <img class="ps5-img" src="./img/playstation-5-thumb.png" alt="">
